@@ -103,6 +103,7 @@ button:focus {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .team-card-head {
@@ -111,12 +112,19 @@ button:focus {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-card-par {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.portfolio-sect {
+  padding-top: 120px;
 }
 
 .portfolio-sect-head {
@@ -126,6 +134,7 @@ button:focus {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .portfolio-card-head {
@@ -142,14 +151,34 @@ button:focus {
   letter-spacing: 0.02em;
 }
 
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-card {
+  width: calc((100% - 48px) / 3);
+}
+
+.name-category-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-par {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 .span-head {
@@ -174,8 +203,10 @@ address {
   font-style: normal;
 }
 
-.sect-list {
+.team-list {
   background-color: #ffffff;
+  display: flex;
+  gap: 24px;
 }
 
 .logo-footer {
@@ -186,10 +217,18 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .team-card {
   background-color: #ffffff;
+  width: calc((100% - 72) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.name-job-container {
+  padding: 32px 0;
 }
 
 h1,
@@ -201,6 +240,14 @@ h6,
 p,
 ul {
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
 
 img {
@@ -255,4 +302,8 @@ header > div {
 
 .ben-list-elem {
   width: calc((100% - 72px) / 4);
+}
+
+.team-sect {
+  padding: 120px 0 120px 0;
 }
