@@ -223,7 +223,7 @@ address {
 
 .team-card {
   background-color: #ffffff;
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -283,21 +283,13 @@ header > div {
   gap: 40px;
 }
 
-.visually-hidden {
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
-}
-
 .ben-list {
   display: flex;
   gap: 24px;
 }
 
 .ben-list-elem {
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .team-sect {
